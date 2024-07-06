@@ -5,7 +5,7 @@ draft = false
 +++
 
 Author: Dondoco  
-[Twitter](https://x.com/_dndc_) / [Bluesky](https://bsky.app/profile/dondocos.bsky.social) / [絵置き場](https://dndc.myportfolio.com/) / [Skeb](https://skeb.jp/@dndc)
+[Twitter](https://x.com/_dndc_) / [Bluesky](https://bsky.app/profile/dndc.dev) / [絵置き場](https://dndc.myportfolio.com/) / [Skeb](https://skeb.jp/@dndc)
 
 新米テクニカルアーティストです。  
 PythonでMayaのツール開発したり、ウェイトや補助骨のセットアップをしたりしてます。
