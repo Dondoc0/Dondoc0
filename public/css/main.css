@@ -1,0 +1,65 @@
+:root {
+  --font-color: #333;
+  --link: #756AB6;
+  --link-hover: #AC87C5;
+}
+
+body {
+  background-image: url("/images/background.png");
+  color: var(--font-color);
+  font-family: sans-serif;
+  line-height: 1.5;
+  margin: 1rem auto;
+  max-width: 1024px;
+}
+
+a {
+  color: var(--link);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--link-hover);
+}
+
+.container {
+  background-color: white;
+  max-width: 960px;
+  padding: 2em;
+}
+
+article {
+  display: flex;
+}
+
+main {
+  width: 100%;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+sub {
+  width: 280px;
+}
+header {
+  border-bottom: 1px solid #222;
+  margin-bottom: 1rem;
+}
+
+header a h1 {
+  color: #333;
+}
+
+footer {
+  border-top: 1px solid #222;
+  margin-top: 1rem;
+}
+
+.post {
+  margin-top: 40px;
+}
+.post h2 {
+  margin: 0;
+}
+.post time {
+  margin: 0;
+}

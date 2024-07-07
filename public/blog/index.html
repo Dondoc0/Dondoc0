@@ -1,275 +1,70 @@
 <!DOCTYPE html>
-<html lang="ja_JP">
-
+<html lang="ja_JP" dir="ltr">
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="shortcut icon" href="http://localhost:1313/images/favicon.png" />
+<meta name="viewport" content="width=device-width">
 <title>Blogs | dndc.dev</title>
-<meta name="title" content="Blogs" />
-<meta name="description" content="Hugo &#43; Bear = :heart:" />
-<meta name="keywords" content="雑記," />
+
+    <link rel="stylesheet" href="/css/main.css">
 
 
-<meta property="og:url" content="http://localhost:1313/blog/">
-  <meta property="og:site_name" content="dndc.dev">
-  <meta property="og:title" content="Blogs">
-  <meta property="og:description" content="Hugo &#43; Bear = :heart:">
-  <meta property="og:locale" content="ja_JP">
-  <meta property="og:type" content="website">
-    <meta property="og:image" content="http://localhost:1313/images/favicon.png">
+      <script src="/js/main.js"></script>
 
-
-
-
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="http://localhost:1313/images/favicon.png">
-  <meta name="twitter:title" content="Blogs">
-  <meta name="twitter:description" content="Hugo &#43; Bear = :heart:">
-
-
-
-
-  <meta itemprop="name" content="Blogs">
-  <meta itemprop="description" content="Hugo &#43; Bear = :heart:">
-  <meta itemprop="datePublished" content="2024-07-06T13:23:17+09:00">
-  <meta itemprop="dateModified" content="2024-07-06T13:23:17+09:00">
-  <meta itemprop="image" content="http://localhost:1313/images/favicon.png">
-<meta name="referrer" content="no-referrer-when-downgrade" />
-
-  <link rel="alternate" type="application/rss+xml" href="http://localhost:1313/blog/index.xml" title="dndc.dev" />
-  <style>
-  body {
-    font-family: Verdana, sans-serif;
-    margin: auto;
-    padding: 20px;
-    max-width: 720px;
-    text-align: left;
-    background-color: #fff;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    line-height: 1.5;
-    color: #444;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  strong,
-  b {
-    color: #222;
-  }
-
-  a {
-    color: #3273dc;
-     
-  }
-
-  .title {
-    text-decoration: none;
-    border: 0;
-  }
-
-  .title span {
-    font-weight: 400;
-  }
-
-  nav a {
-    margin-right: 10px;
-  }
-
-  textarea {
-    width: 100%;
-    font-size: 16px;
-  }
-
-  input {
-    font-size: 16px;
-  }
-
-  content {
-    line-height: 1.6;
-  }
-
-  table {
-    width: 100%;
-  }
-
-  img {
-    max-width: 100%;
-  }
-
-  code {
-    padding: 2px 5px;
-    background-color: #f2f2f2;
-  }
-
-  pre code {
-    color: #222;
-    display: block;
-    padding: 20px;
-    white-space: pre-wrap;
-    font-size: 14px;
-    overflow-x: auto;
-  }
-
-  div.highlight pre {
-    background-color: initial;
-    color: initial;
-  }
-
-  div.highlight code {
-    background-color: unset;
-    color: unset;
-  }
-
-  blockquote {
-    border-left: 1px solid #999;
-    color: #222;
-    padding-left: 20px;
-    font-style: italic;
-  }
-
-  footer {
-    padding: 25px;
-    text-align: center;
-  }
-
-  .helptext {
-    color: #777;
-    font-size: small;
-  }
-
-  .errorlist {
-    color: #eba613;
-    font-size: small;
-  }
-
-   
-  ul.blog-posts {
-    list-style-type: none;
-    padding: unset;
-  }
-
-  ul.blog-posts li {
-    display: flex;
-  }
-
-  ul.blog-posts li span {
-    flex: 0 0 130px;
-  }
-
-  ul.blog-posts li a:visited {
-    color: #8b6fcb;
-  }
-
-  @media (prefers-color-scheme: dark) {
-    body {
-      background-color: #333;
-      color: #ddd;
-    }
-
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    strong,
-    b {
-      color: #eee;
-    }
-
-    a {
-      color: #8cc2dd;
-    }
-
-    code {
-      background-color: #777;
-    }
-
-    pre code {
-      color: #ddd;
-    }
-
-    blockquote {
-      color: #ccc;
-    }
-
-    textarea,
-    input {
-      background-color: #252525;
-      color: #ddd;
-    }
-
-    .helptext {
-      color: #aaa;
-    }
-  }
-
-</style>
 
 </head>
-
 <body>
-  <header><a href="http://localhost:1313/" class="title">
-  <h2>dndc.dev</h2>
-</a>
-<nav><a href="http://localhost:1313/">Home</a>
+  <header>
+    <h1>dndc.dev</h1>
+
+  <nav>
+    <ul>
+    <li>
+      <a href="/">Home</a>
+    </li>
+    <li>
+      <a href="/posts/">Posts</a>
+    </li>
+    <li>
+      <a>Tags</a>
+    </li>
+    </ul>
+  </nav>
 
 
-<a href="/blog">Blog</a>
-
-</nav>
-</header>
+  </header>
   <main>
-<content>
+    
+  <h1>Blogs</h1>
   
-  <ul class="blog-posts">
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2024-07-06' pubdate>
-            2024-07-06
-          </time>
-        </i>
-      </span>
-      <a href="http://localhost:1313/20240706-sute/">なんか色々捨てた</a>
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2024-07-05' pubdate>
-            2024-07-05
-          </time>
-        </i>
-      </span>
-      <a href="http://localhost:1313/20240705-memotool/">文章を残しておくツールに悩む</a>
-    </li>
-    
-  </ul>
   
-    <small>
-      <div>
-        
-        <a href="http://localhost:1313/blog/%E9%9B%91%E8%A8%98/">#雑記</a>&nbsp;
-        
-      </div>
-    </small>
-    
-</content>
+    <h2><a href="/20240706-sute/">なんか色々捨てた</a></h2>
+    1年以上着ていない服、へたってしまった服、履かないスニーカーを処分しました。
+ワンピース 3点 トップス 9点 ルームウェア 4点 スニーカー 3点 バッグ 1点 スニーカーはメルカリに出してもいいかと思ったのですが、加水分解の可能性がある商品を出店して低評価とかつくのも嫌だなあ、ということで処分にしました。
+先日、クロックスの雨でも履けるラバーのサンダルを買ったのですが、日向でラバー部分が爆熱になる問題に出くわしたので、雨の日以外には履かないことにしました。そのかわり、夏の間履くものとしてルナサンダルを購入しました。
+Mono Winged Edition（モノ ウィングドエディション） – ルナサンダル
+ルナサンダルは裸足のような履き心地を追求したサンダルで、ルナサンダルでランニングや登山をしている同好会などもあるようです。前々から気になっていたのですが、自分の服装がドレッシーだったので、ルナサンダルと合わないなーと思って買っていませんでした。ですが転職してから服装がどんどんゆるくなって、ルナサンダルでも浮かない服が揃ってきたのですよ。やったね
+服装のジャンルが変わってきたのであともう1回くらいは着ない服大処分パーティがあるかもしれません。
+あと、取っ手部分がボロボロになった傘を処分することにしました。
+かわりにワンブレラを買いました。
+飛行犬×Wpc. 空飛ぶワンブレラ Wpc. ビニール傘 雨傘 長傘 ≪先行販売≫
+マジで可愛くない！？猫派の皆様用にニャンブレラもあります。ハロッズの犬のバッグみたいな感じで、ぎりぎり幼稚にならず上品に使えるかな、ってデザインなのでおすすめです。
+  
+    <h2><a href="/20240705-memotool/">文章を残しておくツールに悩む</a></h2>
+    最近使ったメモツール Scrapbox Obsidian Notion Google Keep Scrapbox Scrapboxは何年も愛用しており、非公開と公開どちらもプロジェクトを持っています。ただしScrapboxでまとめていたことを会社のConfluenceに移植したい時、ScrapboxがMarkdownに非対応であることがかなりネックになっていました。大量のブラケティングとScrapbox独自の記法で書かれたリンク、Gyazoイメージリンク…。それらを文字列置換や手作業で整えるのはなかなか骨が折れます。
+Obsidian そこで使い心地はほぼScrapboxだけどMarkdown記法が使える、というObsidianに手を出しました。結論を言えば定着しませんでした。ファイル名とタイトルが同期しているせいで、Windowsなどでファイル名に使えない文字列はタイトルに使えないのです。/（スラッシュ）も使えないんですよ！Scrapboxで「2024/07/01」といった日報ページを使っていたので、それらがすんなり移植できないわけです。
+Notion では一部だけMarkdownで、あとはリッチテキストなNotionでもいいんじゃないか？プロジェクトを一部切り出してウェブで公開することもできるし。と思って使い始めたものの、リッチテキストで整形して…というのがかなりめんどくさくて疲れる作業に感じてだめでした。学生時代ノートを凝ってた人は向いてると思います。私は赤ペンに持ち替えるのもだるかったタイプなので全く向いてませんでした。
+Google Keep 今は体系的な文章を書くのはMarkdownべた書きにして、ちょっとしたメモはGoogle Keepで運用しています。
+Scrapboxでブラケティングしなければいいじゃんという気がしなくもないですが、ブラケティングが本体といっても過言ではないサービスなのでアイデンティティを殺してしまわないか？と思ったり……。
+その点、Keepはただのメモツールなので、雑に文字列を突っ込んでおけるのがいいですね。
+Hugo というわけでべた書きしたMarkdownをぶん投げておく場所としてHugoを復活させました。
+ウェブサイト遍歴はHTMLべた書き→Wordpress→blot.im→bear blog→Hugoといった感じです。
+これから時間をかけてカスタマイズしていく所存です。
+  
 
   </main>
-  <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
-</footer>
+  <footer>
+    <p>Copyright 2024. All rights reserved.</p>
 
-    
+  </footer>
 </body>
-
 </html>

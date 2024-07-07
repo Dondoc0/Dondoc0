@@ -1,0 +1,11 @@
+{{ define "main" }}
+  {{ .Content }}
+  {{ range site.RegularPages }}
+  <div class="post">
+    <time datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
+      {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
+    </time>
+    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+  </div>
+    {{ end }}
+{{ end }}
