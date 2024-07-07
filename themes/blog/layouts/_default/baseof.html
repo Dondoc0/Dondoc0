@@ -15,7 +15,8 @@
         {{ block "main" . }}{{ end }}
       </main>
       <sub>
-        <div>サイドバー テスト</div>
+        {{ partial "profile.html" . }}
+        {{ partial "tag-cloud.html" . }}
       </sub>
     </article>
     <footer>

@@ -3,7 +3,7 @@
 baseURL = "https://www.dndc.dev"
 
 # The name of this wonderful theme ;-).
-theme = 'hugo-bearblog'
+theme = 'blog'
 
 # Basic metadata configuration for your blog.
 title = "dndc.dev"
@@ -50,3 +50,7 @@ ignoreErrors = ["error-disable-taxonomy"]
   # for details. An example TOML config that uses [ISO
   # 8601](https://en.wikipedia.org/wiki/ISO_8601) format:
   dateFormat = "2006-01-02"
+
+  # DNDC Custom param
+  author = 'Dondoco'
+  bio = '新米テクニカルアーティストです。PythonでMayaのツール開発したり、ウェイトや補助骨のセットアップをしたりしてます。'

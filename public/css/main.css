@@ -23,43 +23,121 @@ a:hover {
 }
 
 .container {
-  background-color: white;
   max-width: 960px;
-  padding: 2em;
+  margin: 1em;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  margin: 1em 1em;
+  padding: 0;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 1em 0 0;
 }
 
 article {
   display: flex;
+  flex-direction: column;
 }
 
 main {
+  background-color: white;
+  max-width: 100%;
   width: 100%;
-  margin-left: 2em;
-  margin-right: 2em;
+  padding: 1em;
 }
 sub {
-  width: 280px;
+  font-size: medium;
+  margin: 3em 0;
+  max-width: 100%;
 }
+.profile {
+  background-color: white;
+  margin: 0 auto 2em auto;
+  padding: 2em 1em;
+}
+.profile img {
+  display: block;
+  width: 120px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.profile .author {
+  text-align: center;
+  margin: .5em auto;
+  font-weight: bold;
+}
+.profile .bio {
+  font-size: .9em;
+  margin: 1em auto 0;
+}
+
 header {
-  border-bottom: 1px solid #222;
   margin-bottom: 1rem;
+}
+
+header a {
+  display: inline-block;
+  padding: 0;
+  margin: 1em 0;
 }
 
 header a h1 {
   color: #333;
+  margin: 0;
 }
 
-footer {
-  border-top: 1px solid #222;
-  margin-top: 1rem;
+footer p {
+  font-size: small;
+  text-align: center;
 }
 
+main .content {
+  border-bottom: solid 1px #ccc;
+}
 .post {
-  margin-top: 40px;
+  margin-top: 24px;
 }
 .post h2 {
   margin: 0;
 }
 .post time {
   margin: 0;
+}
+
+.single h1 {
+  margin: 0;
+}
+
+.single time {
+  display: block;
+  margin-bottom: 3em;
+}
+
+.terms {
+  margin-top: 3em;
+}
+
+/* ------------------------------------ */
+/* ▼PC用デザインとして付け足すデザイン */
+/* ------------------------------------ */
+@media (min-width: 1024px) {
+  article {
+    flex-direction: row;
+  }
+  main {
+    margin-right: 2em;
+    padding: 2em;
+  }
+  sub {
+    margin: 0;
+    max-width: 280;
+    min-width: 280px;
+    width: 280px;
+  }
+  footer {
+    margin-top: 3em;
+  }
 }
