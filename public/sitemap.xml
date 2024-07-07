@@ -2,19 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://www.dndc.dev/posts/</loc>
     <lastmod>2024-07-06T13:23:17+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/20240706-sute/</loc>
+    <loc>https://www.dndc.dev/posts/20240706-sute/</loc>
     <lastmod>2024-07-06T13:23:17+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/%E9%9B%91%E8%A8%98/</loc>
+    <loc>https://www.dndc.dev/blog/%E9%9B%91%E8%A8%98/</loc>
     <lastmod>2024-07-06T13:23:17+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://www.dndc.dev/</loc>
     <lastmod>2024-07-05T22:37:13+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/20240705-memotool/</loc>
+    <loc>https://www.dndc.dev/posts/20240705-memotool/</loc>
     <lastmod>2024-07-05T22:12:17+09:00</lastmod>
   </url>
 </urlset>
