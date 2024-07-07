@@ -45,7 +45,6 @@ article {
 main {
   background-color: white;
   max-width: 100%;
-  width: 100%;
   padding: 1em;
 }
 sub {
@@ -130,6 +129,7 @@ main .content {
   main {
     margin-right: 2em;
     padding: 2em;
+    width: 100%;
   }
   sub {
     margin: 0;
