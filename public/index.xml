@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>ja_JP</language>
     <copyright>© dndc.dev.</copyright>
-    <lastBuildDate>Mon, 08 Jul 2024 16:53:44 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jul 2024 18:44:12 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>推しの子 2期 感想</title>
+      <link>http://localhost:1313/oshinoko-season2/</link>
+      <pubDate>Mon, 08 Jul 2024 18:44:12 +0900</pubDate>
+      <guid>http://localhost:1313/oshinoko-season2/</guid>
+      <description>1話 唐突に始まる2.5次元舞台！&#xA;バチバチに決まった演者たちの衣装！&#xA;これが2.5次元舞台なのか！行ったことないから新鮮！&#xA;という感じで始まりました。&#xA;時は遡り舞台稽古初日――。&#xA;みたいな感じで進行。&#xA;なんか、1期の記憶も曖昧なんだけど、黒川あかねってアクアと仮面恋人してたんだっけ…。ルビーたちのアイドルトリオが初回公演成功！みたいな印象が強すぎて他の記憶が吹き飛んでいた。</description>
+    </item>
     <item>
       <title>Google Photoの画像を一括削除</title>
       <link>http://localhost:1313/tech/delete-google-photos/</link>
