@@ -7,15 +7,8 @@
     <generator>Hugo</generator>
     <language>ja_JP</language>
     <copyright>© dndc.dev.</copyright>
-    <lastBuildDate>Mon, 08 Jul 2024 18:44:12 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jul 2024 16:53:44 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>推しの子 2期 感想</title>
-      <link>http://localhost:1313/blog/oshinoko-season2/</link>
-      <pubDate>Mon, 08 Jul 2024 18:44:12 +0900</pubDate>
-      <guid>http://localhost:1313/blog/oshinoko-season2/</guid>
-      <description>1話 唐突に始まる2.5次元舞台！&#xA;バチバチに決まった演者たちの衣装！&#xA;これが2.5次元舞台なのか！行ったことないから新鮮！&#xA;という感じで始まりました。&#xA;時は遡り舞台稽古初日――。&#xA;みたいな感じで進行。&#xA;なんか、1期の記憶も曖昧なんだけど、黒川あかねってアクアと仮面恋人してたんだっけ…。ルビーたちのアイドルトリオが初回公演成功！みたいな印象が強すぎて他の記憶が吹き飛んでいた。</description>
-    </item>
     <item>
       <title>Google Photoの画像を一括削除</title>
       <link>http://localhost:1313/tech/delete-google-photos/</link>
@@ -36,13 +29,6 @@
       <pubDate>Fri, 05 Jul 2024 22:12:17 +0900</pubDate>
       <guid>http://localhost:1313/blog/20240705-memotool/</guid>
       <description>最近使ったメモツール Scrapbox Obsidian Notion Google Keep Scrapbox Scrapboxは何年も愛用しており、非公開と公開どちらもプロジェクトを持っています。ただしScrapboxでまとめていたことを会社のConfluenceに移植したい時、ScrapboxがMarkdownに非対応であることがかなりネックになっていました。大量のブラケティングとScrapbox独自の記法で書かれたリンク、Gyazoイメージリンク…。それらを文字列置換や手作業で整えるのはなかなか骨が折れます。&#xA;Obsidian そこで使い心地はほぼScrapboxだけどMarkdown記法が使える、というObsidianに手を出しました。結論を言えば定着しませんでした。ファイル名とタイトルが同期しているせいで、Windowsなどでファイル名に使えない文字列はタイトルに使えないのです。/（スラッシュ）も使えないんですよ！Scrapboxで「2024/07/01」といった日報ページを使っていたので、それらがすんなり移植できないわけです。&#xA;Notion では一部だけMarkdownで、あとはリッチテキストなNotionでもいいんじゃないか？プロジェクトを一部切り出してウェブで公開することもできるし。と思って使い始めたものの、リッチテキストで整形して…というのがかなりめんどくさくて疲れる作業に感じてだめでした。学生時代ノートを凝ってた人は向いてると思います。私は赤ペンに持ち替えるのもだるかったタイプなので全く向いてませんでした。&#xA;Google Keep 今は体系的な文章を書くのはMarkdownべた書きにして、ちょっとしたメモはGoogle Keepで運用しています。&#xA;Scrapboxでブラケティングしなければいいじゃんという気がしなくもないですが、ブラケティングが本体といっても過言ではないサービスなのでアイデンティティを殺してしまわないか？と思ったり……。&#xA;その点、Keepはただのメモツールなので、雑に文字列を突っ込んでおけるのがいいですね。&#xA;Hugo というわけでべた書きしたMarkdownをぶん投げておく場所としてHugoを復活させました。&#xA;ウェブサイト遍歴はHTMLべた書き→Wordpress→blot.im→bear blog→Hugoといった感じです。&#xA;これから時間をかけてカスタマイズしていく所存です。</description>
-    </item>
-    <item>
-      <title>サイト内全検索</title>
-      <link>http://localhost:1313/search/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/search/</guid>
-      <description></description>
     </item>
   </channel>
 </rss>
