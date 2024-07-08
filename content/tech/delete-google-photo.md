@@ -3,7 +3,7 @@ title = 'Google Photoの画像を一括削除'
 slug = 'delete-google-photos'
 date = 2024-07-08T16:53:44+09:00
 tags = ['Javascript',]
-draft = true
+draft = false
 +++
 気がつけば、Googleドライブの使用量が無料枠の15GBすべてを使い切っていました。
 
