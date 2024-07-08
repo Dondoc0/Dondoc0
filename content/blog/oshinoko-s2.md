@@ -1,9 +1,9 @@
-+++
-title = '推しの子 2期 感想'
-slug = 'oshinoko-season2'
-date = 2024-07-08T18:44:12+09:00
-draft = true
-+++
+{
+   "date": "2024-07-08T18:44:12+09:00",
+   "draft": true,
+   "slug": "oshinoko-season2",
+   "title": "推しの子 2期 感想"
+}
 
 ### 1話
 

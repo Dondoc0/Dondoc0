@@ -33,5 +33,7 @@
     <lastmod>2024-07-05T22:12:17+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/search/</loc>
   </url>
 </urlset>

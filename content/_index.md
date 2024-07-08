@@ -1,8 +1,8 @@
-+++
-title = ''
-date = 2024-07-05T22:37:13+09:00
-draft = false
-+++
+{
+   "date": "2024-07-05T22:37:13+09:00",
+   "draft": false,
+   "title": ""
+}
 
 Author: Dondoco  
 [Twitter](https://x.com/_dndc_) / [Bluesky](https://bsky.app/profile/dndc.dev) / [絵置き場](https://dndc.myportfolio.com/) / [Skeb](https://skeb.jp/@dndc)

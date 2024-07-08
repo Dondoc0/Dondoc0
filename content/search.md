@@ -1,5 +1,8 @@
----
-title: "サイト内全文検索"
-layout: search
-_build: { list: never }
----
+{
+    "title": "サイト内全検索",
+    "layout": "search",
+    "build": "list:naver",
+    "_build": {
+        "list": "naver"
+    }
+}

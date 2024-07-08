@@ -1,10 +1,12 @@
-+++
-title = 'Google Photoの画像を一括削除'
-slug = 'delete-google-photos'
-date = 2024-07-08T16:53:44+09:00
-tags = ['Javascript',]
-draft = false
-+++
+{
+   "date": "2024-07-08T16:53:44+09:00",
+   "draft": false,
+   "slug": "delete-google-photos",
+   "tags": [
+      "Javascript"
+   ],
+   "title": "Google Photoの画像を一括削除"
+}
 気がつけば、Googleドライブの使用量が無料枠の15GBすべてを使い切っていました。
 
 私はGoogle Pixel 3aあたりからずっとPixelユーザなので、少なくとも2019年からスマートフォンで撮った写真はずっとGoogleドライブを圧迫し続けているわけです。
