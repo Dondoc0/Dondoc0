@@ -1,1 +1,6 @@
-<a href="{{ .Site.BaseURL }}" class="site-title"><h1>{{ site.Title }}</h1></a>
+<div class="header">
+    <a href="{{ .Site.BaseURL }}" class="site-title">
+        <h1>{{ site.Title }}</h1>
+    </a>
+    <p class="description">{{ .Site.Params.description | markdownify }}</p>
+</div>

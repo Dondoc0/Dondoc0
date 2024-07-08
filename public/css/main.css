@@ -81,12 +81,20 @@ header {
 header a {
   display: inline-block;
   padding: 0;
-  margin: 1em 0;
+  margin: 1em 0 0 0;
 }
 
 header a h1 {
   color: #333;
   margin: 0 0 0 8px;
+}
+.header {
+  display: flex;
+
+  flex-direction: column;
+}
+.header p {
+  margin: 0 0 1em 8px;
 }
 
 footer p {
@@ -144,7 +152,18 @@ main .content {
   footer {
     margin-top: 3em;
   }
-  header a h1 {
+  
+  header, header a h1 {
     margin: 0;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .header p {
+    margin: 0 0 0 1em;
   }
 }
