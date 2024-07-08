@@ -1,0 +1,37 @@
+{
+  "baseURL": "https://www.dndc.dev",
+  "theme": "dndcdev",
+  "title": "dndc.dev",
+  "author": "Dondoco",
+  "copyright": "\u00a9 dndc.dev.",
+  "languageCode": "ja_JP",
+  "enableRobotsTXT": true,
+  "taxonomies": {
+    "tag": "tags",
+    "category": "categories"
+  },
+  "params": {
+    "favicon": [
+      "images/profile.png"
+    ],
+    "images": [
+      "images/profile.png"
+    ],
+    "title": "dndc.dev",
+    "dateFormat": "2006-01-02",
+    "description": "人生 スクラップ & ビルド",
+    "author": "Dondoco",
+    "bio": "新米テクニカルアーティストです。PythonでMayaのツール開発したり、ウェイトや補助骨のセットアップをしたりしてます。技術的な内容は少ないかも？"
+  },
+  "build": {
+    "writeStats": true,
+    "useResourceCache": false
+  },
+  "caches": {
+    "getresource": {
+      "dir": ":resourceDir/_gen",
+      "maxAge": "0",
+      "prune": true
+    }
+  }
+}
