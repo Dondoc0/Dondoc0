@@ -1,6 +1,8 @@
-{{ $styles := resources.Get "css/github-markdown.css" | minify | fingerprint }}
+{{ $styles := resources.Get "css/sanitize.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $styles.Permalink }}">
 
+{{ $styles := resources.Get "css/github-markdown.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $styles.Permalink }}">
 
 {{- with resources.Get "css/main.css" }}
   {{- if eq hugo.Environment "development" }}

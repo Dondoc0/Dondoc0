@@ -5,6 +5,9 @@
     <loc>http://localhost:1313/blog/</loc>
     <lastmod>2024-07-08T18:44:12+09:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/blog/oshinoko-season2/</loc>
+    <lastmod>2024-07-08T18:44:12+09:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tech/delete-google-photos/</loc>
     <lastmod>2024-07-08T16:53:44+09:00</lastmod>
   </url><url>
@@ -30,7 +33,5 @@
     <lastmod>2024-07-05T22:12:17+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/search/</loc>
   </url>
 </urlset>
