@@ -15,7 +15,9 @@
         {{ block "main" . }}{{ end }}
       </main>
       <sub>
+        {{ partial "search-input.html" . }}
         {{ partial "profile.html" . }}
+        {{ partial "tag-cloud.html" . }}
       </sub>
     </article>
     <footer>

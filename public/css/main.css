@@ -1,9 +1,11 @@
 :root {
-  --font-color: #333;
+  --font-color: #555;
   --link: #756AB6;
   --link-hover: #AC87C5;
 }
-
+/* ------------------------------------ */
+/* ▼ベースデザイン */
+/* ------------------------------------ */
 body {
   background-image: url("/images/background.png");
   color: var(--font-color);
@@ -24,6 +26,25 @@ a:hover {
 img {
   max-width: 100%;
 }
+
+pre {
+  white-space: pre-wrap;       /* CSS3 */
+  white-space: -moz-pre-wrap;  /* Firefox */
+  white-space: -pre-wrap;      /* Opera <7 */
+  white-space: -o-pre-wrap;    /* Opera 7 */
+  word-wrap: break-word;       /* IE */
+  padding: .5em;
+}
+
+blockquote {
+  border-left: solid 4px #ccc;
+  margin: 1em;
+  padding: 0 1em;
+}
+
+/* ------------------------------------ */
+/* ▼レイアウト */
+/* ------------------------------------ */
 .container {
   max-width: 960px;
 }
@@ -52,26 +73,6 @@ sub {
   font-size: medium;
   margin: 3em 0 1em;
   max-width: 100%;
-}
-.profile {
-  background-color: white;
-  margin: 0 auto;
-  padding: 1em;
-}
-.profile img {
-  display: block;
-  width: 120px;
-  border-radius: 50%;
-  margin: 0 auto;
-}
-.profile .author {
-  text-align: center;
-  margin: .5em auto;
-  font-weight: bold;
-}
-.profile .bio {
-  font-size: .9em;
-  margin: 1em auto 0;
 }
 
 header {
@@ -128,20 +129,47 @@ main .content {
   margin-top: 3em;
 }
 
-pre {
-  white-space: pre-wrap;       /* CSS3 */
-  white-space: -moz-pre-wrap;  /* Firefox */
-  white-space: -pre-wrap;      /* Opera <7 */
-  white-space: -o-pre-wrap;    /* Opera 7 */
-  word-wrap: break-word;       /* IE */
-  padding: .5em;
+
+/* ------------------------------------ */
+/* ▼ウィジェット全般 */
+/* ------------------------------------ */
+.widget {
+  background-color: white;
+  padding: 1em;
+  margin: 2em 0;
+}
+.widget:first-child {
+  margin-top: 0; /* 最初はmainと揃えたいので */
+}
+.widget:last-child {
+  margin-bottom: 0; /* 最後はmainと揃えたいので */
 }
 
-blockquote {
-  border-left: solid 4px #ccc;
-  margin: 1em;
-  padding: 0 1em;
+.widget h2 {
+  font-size: 1.1em;
+  margin: 0;
+  text-align: center;
 }
+
+/* ------------------------------------ */
+/* ▼ウィジェット Profile */
+/* ------------------------------------ */
+.profile img {
+  display: block;
+  width: 120px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.profile .author {
+  text-align: center;
+  margin: .5em auto;
+  font-weight: bold;
+}
+.profile .bio {
+  font-size: .9em;
+  margin: 1em auto 0;
+}
+
 
 /* ------------------------------------ */
 /* ▼タグクラウド */
@@ -160,6 +188,19 @@ ul.tag-cloud-item li {
   margin: 0 8px;
 }
 
+/* ------------------------------------ */
+/* ▼検索機能関連 */
+/* ------------------------------------ */
+/* 検索結果ページ */
+#result h2 {
+  margin-top: 1em;
+  margin-bottom: .25em;
+}
+#result b {
+  background-color: antiquewhite;
+  border-radius: 4px;
+  padding: 0 .25em;
+}
 
 /* ------------------------------------ */
 /* ▼PC用デザインとして付け足すデザイン */
