@@ -128,6 +128,21 @@ main .content {
   margin-top: 3em;
 }
 
+pre {
+  white-space: pre-wrap;       /* CSS3 */
+  white-space: -moz-pre-wrap;  /* Firefox */
+  white-space: -pre-wrap;      /* Opera <7 */
+  white-space: -o-pre-wrap;    /* Opera 7 */
+  word-wrap: break-word;       /* IE */
+  padding: .5em;
+}
+
+blockquote {
+  border-left: solid 4px #ccc;
+  margin: 1em;
+  padding: 0 1em;
+}
+
 /* ------------------------------------ */
 /* ▼PC用デザインとして付け足すデザイン */
 /* ------------------------------------ */

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teches on dndc.dev</title>
+    <link>http://localhost:1313/tech/</link>
+    <description>Recent content in Teches on dndc.dev</description>
+    <generator>Hugo</generator>
+    <language>ja_JP</language>
+    <copyright>© dndc.dev.</copyright>
+    <lastBuildDate>Mon, 08 Jul 2024 16:53:44 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google Photoの画像を一括削除</title>
+      <link>http://localhost:1313/tech/delete-google-photos/</link>
+      <pubDate>Mon, 08 Jul 2024 16:53:44 +0900</pubDate>
+      <guid>http://localhost:1313/tech/delete-google-photos/</guid>
+      <description>気がつけば、Googleドライブの使用量が無料枠の15GBすべてを使い切っていました。&#xA;私はGoogle Pixel 3aあたりからずっとPixelユーザなので、少なくとも2019年からスマートフォンで撮った写真はずっとGoogleドライブを圧迫し続けている。&#xA;Gyazo Proを契約しているので、Googleフォトから写真と動画をすべてエクスポートし、ひたすらGyazoにアップロードしていた。&#xA;ちなみにGyazoにアップロードすることで、プライベートの写真を全世界に公開することになるんじゃないの？という心配があるかと思いますが、それに関してはGyazo公式で以下のような見解が出されています。&#xA;Gyazoは会社で使えない？誤解の解説とセキュアなGyazoTeamsのご紹介｜スクショ撮影ならGyazo Teams&#xA;Gyazoは画像をアップロードすると自動で https://gyazo.com/64ad3&amp;hellip; のような32桁のIDを含むURLを発行します。IDは0〜9とa〜fの16種類の文字で構成されていて、すべてのIDは16の32乗で340,282,366,920,938,463,463,374,607,431,768,211,456通りです。Gyazoは現在約10億枚（1,000,000,000枚）の画像を保管していますので、ランダムにIDを入力すると0.00000000000000000000000000029%の確率で画像を見つけることができます。数学的に見て、Gyazoの正しいIDを推測するのが非常に困難であることが分かります。またGyazoではDoS攻撃への対策もとられているため、大量のアクセスを通じてIDを割り出すことは不可能です。&#xA;だそうです。どうせScrapboxに日記を書き溜めていたときは画像はGyazoに上げられていたわけだし、今更騒ぐことでもないかなと思いGyazoに投げることにしました。</description>
+    </item>
+  </channel>
+</rss>

@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tech/delete-google-photos/</loc>
+    <lastmod>2024-07-08T16:53:44+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tech/</loc>
+    <lastmod>2024-07-08T16:53:44+09:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/blog/</loc>
     <lastmod>2024-07-06T13:23:17+09:00</lastmod>
   </url><url>
