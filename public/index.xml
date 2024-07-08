@@ -2,39 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>dndc.dev</title>
-    <link>http://localhost:1313/</link>
+    <link>https://www.dndc.dev/</link>
     <description>Recent content on dndc.dev</description>
     <generator>Hugo</generator>
     <language>ja_JP</language>
     <copyright>© dndc.dev.</copyright>
-    <lastBuildDate>Mon, 08 Jul 2024 18:44:12 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>推しの子 2期 感想</title>
-      <link>http://localhost:1313/blog/oshinoko-season2/</link>
-      <pubDate>Mon, 08 Jul 2024 18:44:12 +0900</pubDate>
-      <guid>http://localhost:1313/blog/oshinoko-season2/</guid>
-      <description>1話 唐突に始まる2.5次元舞台！&#xA;バチバチに決まった演者たちの衣装！&#xA;これが2.5次元舞台なのか！行ったことないから新鮮！&#xA;という感じで始まりました。&#xA;時は遡り舞台稽古初日――。&#xA;みたいな感じで進行。&#xA;なんか、1期の記憶も曖昧なんだけど、黒川あかねってアクアと仮面恋人してたんだっけ…。ルビーたちのアイドルトリオが初回公演成功！みたいな印象が強すぎて他の記憶が吹き飛んでいた。</description>
-    </item>
+    <lastBuildDate>Mon, 08 Jul 2024 16:53:44 +0900</lastBuildDate>
+    <atom:link href="https://www.dndc.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Google Photoの画像を一括削除</title>
-      <link>http://localhost:1313/tech/delete-google-photos/</link>
+      <link>https://www.dndc.dev/tech/delete-google-photos/</link>
       <pubDate>Mon, 08 Jul 2024 16:53:44 +0900</pubDate>
-      <guid>http://localhost:1313/tech/delete-google-photos/</guid>
+      <guid>https://www.dndc.dev/tech/delete-google-photos/</guid>
       <description>気がつけば、Googleドライブの使用量が無料枠の15GBすべてを使い切っていました。&#xA;私はGoogle Pixel 3aあたりからずっとPixelユーザなので、少なくとも2019年からスマートフォンで撮った写真はずっとGoogleドライブを圧迫し続けているわけです。&#xA;Gyazo Proを契約しているので、Googleフォトから写真と動画をすべてエクスポートし、ひたすらGyazoにアップロードしていました。&#xA;ちなみにGyazoにアップロードすることで、プライベートの写真を全世界に公開することになるんじゃないの？という心配があるかと思いますが、それに関してはGyazo公式で以下のような見解が出されています。&#xA;Gyazoは会社で使えない？誤解の解説とセキュアなGyazoTeamsのご紹介｜スクショ撮影ならGyazo Teams&#xA;Gyazoは画像をアップロードすると自動で https://gyazo.com/64ad3... のような32桁のIDを含むURLを発行します。IDは0〜9とa〜fの16種類の文字で構成されていて、すべてのIDは16の32乗で340,282,366,920,938,463,463,374,607,431,768,211,456通りです。Gyazoは現在約10億枚（1,000,000,000枚）の画像を保管していますので、ランダムにIDを入力すると0.00000000000000000000000000029%の確率で画像を見つけることができます。数学的に見て、Gyazoの正しいIDを推測するのが非常に困難であることが分かります。またGyazoではDoS攻撃への対策もとられているため、大量のアクセスを通じてIDを割り出すことは不可能です。&#xA;だそうです。どうせScrapboxに日記を書き溜めていたときは画像はGyazoに上げられていたわけだし、今更騒ぐことでもないかなと思いGyazoに投げることにしました。だって、98%、犬の画像だし。&#xA;で、バックアップは無事できたのですが、Googleフォトの画像を削除しなければなりません。そこでGoogleフォトの設定画面を覗いて画像の一括削除がないか探しました。ありませんでした。&#xA;まさか！一枚一枚選択して削除しないといけないのお～！？そんなの嫌すぎる！助けてドラえも～ん！！！&#xA;mrishab/google-photos-delete-tool: Tool for deleting all photos from the Google Photos&#xA;いました、私のドラえもんが。なんとGoogleフォトを一括削除してくれるJavascriptを配布してくれているではありませんか！&#xA;早速試してみたのですが、うまくいかない。画像を複数枚チェックするところはうまくいくのですが、ゴミ箱ボタンを押してDeleteを実行するところでコケていました。&#xA;れどめを読むと英語版のGoogleフォトで実行してね★と書いてあり、ちゃんと英語版でやってます。何かがおかしいなと思って調べると、Delete実行のSelectorが私の環境だとちょっと違うのが原因でした。&#xA;confirmationButton: &amp;#39;#yDmH0d &amp;gt; div.llhEMd.iWO5td &amp;gt; div &amp;gt; div.g3VIld.V639qd.bvQPzd.oEOLpc.Up8vH.J9Nfi.A9Uzve.iWO5td &amp;gt; div.XfpsVe.J9fJmf &amp;gt; button.VfPpkd-LgbsSe.VfPpkd-LgbsSe-OWXEXe-k8QpJ.nCP5yc.kHssdc.HvOprf&amp;#39; ここを画像の手順でゲットしたセレクターに置換したら動くようになりました。&#xA;ちなみに一部書き換えをすれば日本語版Googleフォトでも動くらしいです。気になる方はググってみてね。&#xA;めでたしめでたし。</description>
     </item>
     <item>
       <title>なんか色々捨てた</title>
-      <link>http://localhost:1313/blog/20240706-sute/</link>
+      <link>https://www.dndc.dev/blog/20240706-sute/</link>
       <pubDate>Sat, 06 Jul 2024 13:23:17 +0900</pubDate>
-      <guid>http://localhost:1313/blog/20240706-sute/</guid>
+      <guid>https://www.dndc.dev/blog/20240706-sute/</guid>
       <description>1年以上着ていない服、へたってしまった服、履かないスニーカーを処分しました。&#xA;ワンピース 3点 トップス 9点 ルームウェア 4点 スニーカー 3点 バッグ 1点 スニーカーはメルカリに出してもいいかと思ったのですが、加水分解の可能性がある商品を出店して低評価とかつくのも嫌だなあ、ということで処分にしました。&#xA;先日、クロックスの雨でも履けるラバーのサンダルを買ったのですが、日向でラバー部分が爆熱になる問題に出くわしたので、雨の日以外には履かないことにしました。そのかわり、夏の間履くものとしてルナサンダルを購入しました。&#xA;Mono Winged Edition（モノ ウィングドエディション） – ルナサンダル&#xA;ルナサンダルは裸足のような履き心地を追求したサンダルで、ルナサンダルでランニングや登山をしている同好会などもあるようです。前々から気になっていたのですが、自分の服装がドレッシーだったので、ルナサンダルと合わないなーと思って買っていませんでした。ですが転職してから服装がどんどんゆるくなって、ルナサンダルでも浮かない服が揃ってきたのですよ。やったね&#xA;服装のジャンルが変わってきたのであともう1回くらいは着ない服大処分パーティがあるかもしれません。&#xA;あと、取っ手部分がボロボロになった傘を処分することにしました。&#xA;かわりにワンブレラを買いました。&#xA;飛行犬×Wpc. 空飛ぶワンブレラ Wpc. ビニール傘 雨傘 長傘 ≪先行販売≫&#xA;マジで可愛くない！？猫派の皆様用にニャンブレラもあります。ハロッズの犬のバッグみたいな感じで、ぎりぎり幼稚にならず上品に使えるかな、ってデザインなのでおすすめです。</description>
     </item>
     <item>
       <title>文章を残しておくツールに悩む</title>
-      <link>http://localhost:1313/blog/20240705-memotool/</link>
+      <link>https://www.dndc.dev/blog/20240705-memotool/</link>
       <pubDate>Fri, 05 Jul 2024 22:12:17 +0900</pubDate>
-      <guid>http://localhost:1313/blog/20240705-memotool/</guid>
+      <guid>https://www.dndc.dev/blog/20240705-memotool/</guid>
       <description>最近使ったメモツール Scrapbox Obsidian Notion Google Keep Scrapbox Scrapboxは何年も愛用しており、非公開と公開どちらもプロジェクトを持っています。ただしScrapboxでまとめていたことを会社のConfluenceに移植したい時、ScrapboxがMarkdownに非対応であることがかなりネックになっていました。大量のブラケティングとScrapbox独自の記法で書かれたリンク、Gyazoイメージリンク…。それらを文字列置換や手作業で整えるのはなかなか骨が折れます。&#xA;Obsidian そこで使い心地はほぼScrapboxだけどMarkdown記法が使える、というObsidianに手を出しました。結論を言えば定着しませんでした。ファイル名とタイトルが同期しているせいで、Windowsなどでファイル名に使えない文字列はタイトルに使えないのです。/（スラッシュ）も使えないんですよ！Scrapboxで「2024/07/01」といった日報ページを使っていたので、それらがすんなり移植できないわけです。&#xA;Notion では一部だけMarkdownで、あとはリッチテキストなNotionでもいいんじゃないか？プロジェクトを一部切り出してウェブで公開することもできるし。と思って使い始めたものの、リッチテキストで整形して…というのがかなりめんどくさくて疲れる作業に感じてだめでした。学生時代ノートを凝ってた人は向いてると思います。私は赤ペンに持ち替えるのもだるかったタイプなので全く向いてませんでした。&#xA;Google Keep 今は体系的な文章を書くのはMarkdownべた書きにして、ちょっとしたメモはGoogle Keepで運用しています。&#xA;Scrapboxでブラケティングしなければいいじゃんという気がしなくもないですが、ブラケティングが本体といっても過言ではないサービスなのでアイデンティティを殺してしまわないか？と思ったり……。&#xA;その点、Keepはただのメモツールなので、雑に文字列を突っ込んでおけるのがいいですね。&#xA;Hugo というわけでべた書きしたMarkdownをぶん投げておく場所としてHugoを復活させました。&#xA;ウェブサイト遍歴はHTMLべた書き→Wordpress→blot.im→bear blog→Hugoといった感じです。&#xA;これから時間をかけてカスタマイズしていく所存です。</description>
     </item>
   </channel>

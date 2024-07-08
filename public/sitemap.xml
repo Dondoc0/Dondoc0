@@ -2,36 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>https://www.dndc.dev/blog/</loc>
     <lastmod>2024-07-08T18:44:12+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/oshinoko-season2/</loc>
-    <lastmod>2024-07-08T18:44:12+09:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tech/delete-google-photos/</loc>
+    <loc>https://www.dndc.dev/tech/delete-google-photos/</loc>
     <lastmod>2024-07-08T16:53:44+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/javascript/</loc>
+    <loc>https://www.dndc.dev/tags/javascript/</loc>
     <lastmod>2024-07-08T16:53:44+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://www.dndc.dev/tags/</loc>
     <lastmod>2024-07-08T16:53:44+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tech/</loc>
+    <loc>https://www.dndc.dev/tech/</loc>
     <lastmod>2024-07-08T16:53:44+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/20240706-sute/</loc>
+    <loc>https://www.dndc.dev/blog/20240706-sute/</loc>
     <lastmod>2024-07-06T13:23:17+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E9%9B%91%E8%A8%98/</loc>
+    <loc>https://www.dndc.dev/tags/%E9%9B%91%E8%A8%98/</loc>
     <lastmod>2024-07-06T13:23:17+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://www.dndc.dev/</loc>
     <lastmod>2024-07-05T22:37:13+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/20240705-memotool/</loc>
+    <loc>https://www.dndc.dev/blog/20240705-memotool/</loc>
     <lastmod>2024-07-05T22:12:17+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://www.dndc.dev/categories/</loc>
   </url>
 </urlset>
