@@ -11,12 +11,8 @@
     "category": "categories"
   },
   "params": {
-    "favicon": [
-      "images/profile.png"
-    ],
-    "images": [
-      "images/profile.png"
-    ],
+    "favicon": "images/profile.png",
+    "image": "images/profile.png",
     "title": "dndc.dev",
     "dateFormat": "2006-01-02",
     "description": "人生 スクラップ & ビルド",

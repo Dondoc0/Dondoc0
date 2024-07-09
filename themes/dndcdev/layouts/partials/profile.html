@@ -1,5 +1,5 @@
 <div class="profile widget">
-    <img src="/images/profile.png" alt="">
+    <img src="{{ .Site.Params.image }}" alt="">
     <div class="author">{{ .Site.Params.author }}</div>
     <div class="bio">{{ .Site.Params.bio | safeHTML }}</div>
 </div>
