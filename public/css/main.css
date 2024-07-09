@@ -6,6 +6,9 @@
 /* ------------------------------------ */
 /* ▼ベースデザイン */
 /* ------------------------------------ */
+html {
+  scrollbar-gutter: stable both-edges;
+}
 body {
   background-color: #f5f5f5;
   color: var(--font-color);
