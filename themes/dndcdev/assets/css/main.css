@@ -119,6 +119,9 @@ main .content {
   margin: 0;
 }
 
+/* ------------------------------------ */
+/* ▼個別記事ページ */
+/* ------------------------------------ */
 .single h1 {
   margin: 0;
 }
@@ -129,9 +132,26 @@ main .content {
 }
 
 .terms {
+  display: flex;
   margin-top: 3em;
+  margin-bottom: 1em;
 }
-
+.terms-label {
+  margin-right: .5em;
+}
+.terms ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.terms ul li {
+  list-style: none;
+  margin-right: 1em;
+}
+.terms ul li::before {
+  content: "#";
+  color: var(--link);
+}
 
 /* ------------------------------------ */
 /* ▼ウィジェット全般 */
@@ -230,20 +250,31 @@ input#searchButton {
   border-radius: 4px;
   padding: 0 .25em;
 }
-
+/* -------------------------------------------- */
+/* ▼タブレット用デザインとして付け足すデザイン */
+/* -------------------------------------------- */
+@media (min-width: 768px) {
+  .container{
+    max-width: 680px;
+    margin: 0 auto;
+  }
+  main {
+    padding: 2em;
+  }
+}
 /* ------------------------------------ */
 /* ▼PC用デザインとして付け足すデザイン */
 /* ------------------------------------ */
 @media (min-width: 1024px) {
   .container {
     margin: 1em;
+    max-width: 100%;
   }
   article {
     flex-direction: row;
   }
   main {
     margin-right: 2em;
-    padding: 2em;
     width: 100%;
   }
   sub {

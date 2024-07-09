@@ -41,6 +41,7 @@
       "description",
       "header",
       "highlight",
+      "label",
       "panel-body",
       "panel-title",
       "post",
@@ -52,10 +53,10 @@
       "tag-cloud",
       "tag-cloud-item",
       "terms",
+      "terms-label",
       "widget"
     ],
     "ids": [
-      "1話",
       "google-keep",
       "hugo",
       "inputWord",
