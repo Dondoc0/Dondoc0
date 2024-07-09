@@ -45,6 +45,7 @@
       "panel-title",
       "post",
       "profile",
+      "search-input",
       "single",
       "site-title",
       "tag",
@@ -54,6 +55,7 @@
       "widget"
     ],
     "ids": [
+      "1話",
       "google-keep",
       "hugo",
       "inputWord",
