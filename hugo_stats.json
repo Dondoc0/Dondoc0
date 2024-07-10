@@ -41,7 +41,6 @@
       "description",
       "header",
       "highlight",
-      "label",
       "panel-body",
       "panel-title",
       "post",
@@ -54,6 +53,7 @@
       "tag-cloud-item",
       "terms",
       "terms-label",
+      "top-button",
       "widget"
     ],
     "ids": [
@@ -68,6 +68,7 @@
       "scrapbox",
       "searchButton",
       "searchKeyword",
+      "topButton",
       "最近使ったメモツール"
     ]
   }
