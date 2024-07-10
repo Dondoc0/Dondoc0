@@ -15,6 +15,7 @@
       "head",
       "header",
       "html",
+      "iframe",
       "img",
       "input",
       "li",
@@ -57,6 +58,7 @@
       "widget"
     ],
     "ids": [
+      "1話",
       "google-keep",
       "hugo",
       "inputWord",

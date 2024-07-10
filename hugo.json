@@ -10,6 +10,16 @@
     "tag": "tags",
     "category": "categories"
   },
+  "markup": {
+    "goldmark": {
+      "renderer": {
+        "unsafe": true
+      }
+    }
+  },
+  "frontmatter": {
+    "format": "json"
+  },
   "params": {
     "favicon": "images/profile.png",
     "image": "images/profile.png",
