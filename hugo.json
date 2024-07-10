@@ -20,7 +20,32 @@
   "frontmatter": {
     "format": "json"
   },
+  "outputs": {
+    "home": [
+      "html",
+      "rss"
+    ],
+    "section": [
+      "html",
+      "rss"
+    ],
+    "taxonomy": [
+      "html"
+    ],
+    "term": [
+      "html"
+    ]
+  },
+  "services": {
+    "rss": {
+      "limit": 10
+    }
+  },
   "params": {
+    "author": {
+      "email": "mail@dndc.dev",
+      "name": "Dondoco"
+    },
     "favicon": "images/profile.png",
     "image": "images/profile.png",
     "title": "dndc.dev",
