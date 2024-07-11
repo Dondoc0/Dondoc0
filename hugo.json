@@ -39,6 +39,9 @@
   "services": {
     "rss": {
       "limit": 10
+    },
+    "googleAnalytics": {
+      "ID": "G-GZMDN72J68"
     }
   },
   "params": {
