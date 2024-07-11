@@ -265,6 +265,7 @@ input#searchButton {
   cursor: pointer;
   border-radius: 2px;
   transition: opacity 0.3s;
+  box-shadow: 0 0 8px gainsboro;
 }
 
 .top-button.show {
