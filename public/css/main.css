@@ -112,6 +112,9 @@ main .content {
 .post {
   margin-top: 24px;
 }
+.post:last-child {
+  margin-bottom: 24px;
+}
 .post h2 {
   margin: 0;
 }
