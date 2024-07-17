@@ -207,10 +207,11 @@ ul.tag-cloud-item {
   align-items: center;
   margin: 0;
   padding: .5em;
+  flex-wrap: wrap;
 }
 ul.tag-cloud-item li {
   list-style: none;
-  margin: 0 8px;
+  margin: 0 2px;
 }
 
 /* ------------------------------------ */

@@ -2,10 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2024-07-11T07:33:00+09:00</lastmod>
+    <loc>http://localhost:1313/game/</loc>
+    <lastmod>2024-07-15T18:52:53+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-07-15T18:52:53+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/warframe/</loc>
+    <lastmod>2024-07-15T18:52:53+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/game/warframe-20240715/</loc>
+    <lastmod>2024-07-15T18:52:53+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/</loc>
     <lastmod>2024-07-11T07:33:00+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/20240711-walking/</loc>
