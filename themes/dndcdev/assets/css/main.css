@@ -17,6 +17,9 @@ body {
   margin: 1rem auto;
   max-width: 1024px;
 }
+p {
+  margin: 1em 0;
+}
 
 a {
   color: var(--link);
