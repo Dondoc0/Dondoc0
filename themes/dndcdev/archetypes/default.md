@@ -5,5 +5,5 @@
     "tags": [
         "雑記"
     ],
-    "draft": True
+    "draft": true
 }
