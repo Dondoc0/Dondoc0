@@ -11,6 +11,7 @@
       "footer",
       "h1",
       "h2",
+      "h3",
       "head",
       "header",
       "html",
@@ -57,6 +58,7 @@
       "widget"
     ],
     "ids": [
+      "20240723-追記",
       "google-keep",
       "hugo",
       "inputWord",

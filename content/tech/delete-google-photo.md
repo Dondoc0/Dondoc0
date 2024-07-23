@@ -25,7 +25,7 @@ Gyazo Proを契約しているので、Googleフォトから写真と動画を�
 
 まさか！一枚一枚選択して削除しないといけないのお～！？そんなの嫌すぎる！助けてドラえも～ん！！！
 
-[mrishab/google\-photos\-delete\-tool: Tool for deleting all photos from the Google Photos](https://github.com/mrishab/google-photos-delete-tool)
+[mrishab/google-photos-delete-tool: Tool for deleting all photos from the Google Photos](https://github.com/mrishab/google-photos-delete-tool)
 
 いました、私のドラえもんが。なんとGoogleフォトを一括削除してくれるJavascriptを配布してくれているではありませんか！
 
