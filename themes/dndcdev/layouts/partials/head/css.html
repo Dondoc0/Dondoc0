@@ -1,4 +1,4 @@
-{{ $styles := resources.Get "css/reboot.css" | minify | fingerprint }}
+{{ $styles := resources.Get "css/sanitize.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $styles.Permalink }}">
 
 {{- with resources.Get "css/main.css" }}
