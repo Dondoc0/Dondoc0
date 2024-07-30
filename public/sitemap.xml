@@ -2,25 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-07-29T18:03:43+09:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/%E9%9B%91%E8%A8%98/</loc>
-    <lastmod>2024-07-29T18:03:43+09:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2024-07-29T18:03:43+09:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/stock/first-note/</loc>
     <lastmod>2024-07-29T18:01:39+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/stock/</loc>
     <lastmod>2024-07-29T18:01:39+09:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-07-29T18:01:39+09:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/%E6%A0%AA/</loc>
     <lastmod>2024-07-29T18:01:39+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/20240723/</loc>
+    <lastmod>2024-07-23T16:59:46+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/</loc>
+    <lastmod>2024-07-23T16:59:46+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%E9%9B%91%E8%A8%98/</loc>
     <lastmod>2024-07-23T16:59:46+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/game/</loc>
