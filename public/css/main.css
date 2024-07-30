@@ -228,6 +228,9 @@ ul.tag-cloud-item li {
 .search-input {
   display: flex;
 }
+input#searchKeyword {
+  width: 100%;
+}
 
 input#searchKeyword, input#query {
   border: solid 1px #999;
