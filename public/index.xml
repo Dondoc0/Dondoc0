@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>ja_JP</language>
     <copyright>© dndc.dev.</copyright>
-    <lastBuildDate>Tue, 23 Jul 2024 16:59:46 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jul 2024 18:01:39 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Note</title>
+      <link>http://localhost:1313/stock/first-note/</link>
+      <pubDate>Mon, 29 Jul 2024 18:01:39 +0900</pubDate>
+      <guid>http://localhost:1313/stock/first-note/</guid>
+      <description></description>
+    </item>
     <item>
       <title>7月下旬の雑記</title>
       <link>http://localhost:1313/blog/20240723/</link>

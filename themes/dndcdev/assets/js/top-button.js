@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // スクロールイベントをリッスン
     window.addEventListener('scroll', function() {
-        if (window.scrollY > 200) {
+        if (window.scrollY > 300) {
             topButton.classList.add('show');
             topButton.classList.remove('hide');
         } else {

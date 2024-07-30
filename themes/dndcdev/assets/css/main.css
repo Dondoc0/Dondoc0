@@ -265,31 +265,6 @@ input#searchButton {
 }
 
 /* ------------------------------------ */
-/* ▼Topに戻るボタン */
-/* ------------------------------------ */
-.top-button {
-  display: none;
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  background-color: #fff;
-  color: #555;
-  padding: 10px 20px;
-  cursor: pointer;
-  border-radius: 2px;
-  transition: opacity 0.3s;
-  box-shadow: 0 0 8px rgba(0,0,0, .1);
-}
-
-.top-button.show {
-  display: block;
-  opacity: 1;
-}
-
-.top-button.hide {
-  opacity: 0;
-}
-/* ------------------------------------ */
 /* ▼ショートコード*/
 /* ------------------------------------ */
 div.spacer {

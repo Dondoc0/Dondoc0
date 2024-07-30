@@ -1,6 +1,10 @@
 {{ $styles := resources.Get "css/sanitize.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $styles.Permalink }}">
 
+{{ $styles := resources.Get "css/top-button.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $styles.Permalink }}">
+
+
 {{- with resources.Get "css/main.css" }}
   {{- if eq hugo.Environment "development" }}
     <link rel="stylesheet" href="{{ .RelPermalink }}">
