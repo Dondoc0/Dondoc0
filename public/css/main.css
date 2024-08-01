@@ -156,7 +156,7 @@ main .content {
 }
 .terms ul li {
   list-style: none;
-  margin-right: 1em;
+  margin-right: .4em;
 }
 .terms ul li::before {
   content: "#";
