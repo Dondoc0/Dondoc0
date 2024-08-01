@@ -7,7 +7,14 @@
     <generator>Hugo</generator>
     <language>ja_JP</language>
     <copyright>© dndc.dev.</copyright>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Mon, 29 Jul 2024 18:01:39 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/stock/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>株を始めるときにインプットしたこと</title>
+      <link>http://localhost:1313/stock/first-note/</link>
+      <pubDate>Mon, 29 Jul 2024 18:01:39 +0900</pubDate>
+      <guid>http://localhost:1313/stock/first-note/</guid>
+      <description>証券口座の開設 源泉徴収のない特定口座で開設する 源泉徴収ありにすると確定申告しなくていい代わりに利益が発生した瞬間強制的に約20%の税金が自動的に徴収されてしまう ネット証券がおすすめ（SBIとか楽天） 投資の方針 分散させる事が大事。ここでいう分散というのは、国内株式・外国株式・国内債券・外国債券へ均等に投資をするということ。均等を大前提に、自分の好みに比率を偏らせても良い、ということらしい。</description>
+    </item>
   </channel>
 </rss>
