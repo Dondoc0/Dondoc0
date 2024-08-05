@@ -11,12 +11,9 @@
       "footer",
       "h1",
       "h2",
-      "h3",
-      "h4",
       "head",
       "header",
       "html",
-      "iframe",
       "img",
       "input",
       "li",
@@ -50,19 +47,15 @@
       "search-input",
       "single",
       "site-title",
-      "spacer",
       "tag",
       "tag-cloud",
       "tag-cloud-item",
       "terms",
       "terms-label",
       "top-button",
-      "twitter-tweet",
       "widget"
     ],
     "ids": [
-      "20240723-追記",
-      "3dcgソフト",
       "google-keep",
       "hugo",
       "inputWord",
@@ -75,19 +68,7 @@
       "searchButton",
       "searchKeyword",
       "topButton",
-      "はじめの一歩",
-      "インフラ",
-      "コスパのいい娯楽ってなんだろう",
-      "サブスク継続したもの",
-      "サブスク解除したもの",
-      "プライベートで使っているもの",
-      "仕事に使っているもの",
-      "実際に商品を買う",
-      "手数料は安いものを",
-      "投資の方針",
-      "支出を減らす",
-      "最近使ったメモツール",
-      "証券口座の開設"
+      "最近使ったメモツール"
     ]
   }
 }
