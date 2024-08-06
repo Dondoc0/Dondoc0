@@ -1,5 +1,15 @@
-{{ $styles := resources.Get "css/sanitize.css" | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $styles.Permalink }}">
+<link
+  href="https://unpkg.com/sanitize.css"
+  rel="stylesheet"
+/>
+<link
+  href="https://unpkg.com/sanitize.css/typography.css"
+  rel="stylesheet"
+/>
+<link
+  href="https://unpkg.com/sanitize.css/forms.css"
+  rel="stylesheet"
+/>
 
 {{ $styles := resources.Get "css/top-button.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $styles.Permalink }}">
