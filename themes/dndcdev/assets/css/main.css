@@ -182,6 +182,31 @@ main .content {
 }
 
 /* ------------------------------------ */
+/* ▼ソーシャルリンク */
+/* ------------------------------------ */
+.social-links ul {
+  display: flex;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+.social-links ul li {
+  list-style-type: none;
+  margin: 0 .25em;
+}
+.social-links ul li:first-child {
+  margin-left: 0;
+}
+.social-links ul li a {
+  margin: 0;
+  padding: .5em 1em;
+  background-color: #756AB6;
+  border-radius: 4px;
+  color: aliceblue;
+  font-size: small;
+}
+
+/* ------------------------------------ */
 /* ▼ウィジェット全般 */
 /* ------------------------------------ */
 .widget {
@@ -290,7 +315,7 @@ input#searchButton {
 /* ▼Makibishi */
 /* ------------------------------------ */
 .makibishi {
-  margin: 0 1em;
+  margin-left: .25em;
 }
 
 /* ------------------------------------ */
