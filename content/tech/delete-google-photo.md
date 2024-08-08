@@ -44,5 +44,3 @@ confirmationButton: '#yDmH0d > div.llhEMd.iWO5td > div > div.g3VIld.V639qd.bvQPz
 ちなみに一部書き換えをすれば日本語版Googleフォトでも動くらしいです。気になる方はググってみてね。
 
 めでたしめでたし。
-
-{{< makibishi "🍣" >}}
