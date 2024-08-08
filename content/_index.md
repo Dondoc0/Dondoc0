@@ -14,7 +14,8 @@
    </ul>
 </div>
 
-{{< makibishi "🍣" >}}
+<span class="makibishi" data-relays="wss://yabu.me/" data-url="https://dndc.dev/" data-content="🍣" data-allow-anonymous-reaction="true"></span>
+
 
 記事は個人の見解であり、所属する組織、団体等の公式見解ではありません。  
 当サイトはCoockieと[Google Analytics](https://policies.google.com/technologies/partner-sites?hl=ja)を利用しています。
