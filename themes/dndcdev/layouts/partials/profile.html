@@ -1,6 +1,6 @@
 <div class="profile widget">
     <img src="{{ .Site.Params.image | relURL }}" alt="">
-    <div class="author">{{ .Site.Params.author }}</div>
+    <div class="author">{{ .Site.Params.author.name }}</div>
     <div class="bio">
         {{ replace .Site.Params.bio "\n" "<br>" | safeHTML }}
     </div>

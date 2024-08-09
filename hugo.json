@@ -54,7 +54,6 @@
     "title": "dndc.dev",
     "dateFormat": "2006-01-02",
     "description": "人生 スクラップ & ビルド",
-    "author": "Dondoco",
     "bio": "<p>Pythonちょっとかじってます。</p><p>【プレイ中のゲーム】\nWarframe, ETS2</p>"
   },
   "build": {
